@@ -24,15 +24,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_INDEFINITE)
-                        .setAction("Action", new View.onClickListener() {
-
+                        .setAction("Action", new View.OnClickListener() {
                             @Override
                             public void onClick(View v) {
                                 Log.d("UI-PARTS", "Snackbarをタップした");
                             }
                         }).show();
             }
-
         });
     }
 
